@@ -45,9 +45,11 @@ Knowledge Discovery in Database (KDD). This methodology has 5 phases. This frame
  
 
 A. Extraction of Images from Internet 
+
 In this phase all the data required for model construction and evaluation is collected and stored in database for further processing. 
 
 B. Data Cleaning 
+
 In this phase all the data that is collected from the previous phase is cleaned and transformed so that it can easily pass through the model. Here the images are separated into different folders so that high accuracy could be obtained from the model. The dataset initially contained 14013 images which was distributed in 20 class of wild animals. For the purpose of this project 5 different classes of image has been taken considering the hardware capabilities because the size of the entire folder was over 5 GB. That’s the reason why we have used a subset of this large dataset reducing the number of classes to 5. 
 
 C. Data Preprocessing 
@@ -58,6 +60,7 @@ Data Augmentation was also used a pre-processing technique because the number of
 The images were also shuffled using the library random so that the basic features can be extended for python and the images in the list can be shuffled as well. After performing the EDA and all the pre-processing steps the nest stage is to create our model. 
  
 D. Data Modelling 
+
 This research has been carried out using two techniques. These are: 
 •	Multiclass classification using Convolutional Neural network 
 •	Multiclass classification using transfer learning on pre-trained DenseNet. 
